@@ -16,9 +16,10 @@ func TestMinus(t *testing.T) {
 	}
 }
 
-func TestMinus2(t *testing.T) {
-	total := Minus(5, 5)
-	if total != 5 {
-		t.Errorf("Minus was incorrect, got: %d, want: %d.", total, 5)
-	}
-}
+//
+//func TestMinus2(t *testing.T) {
+//	total := Minus(5, 5)
+//	if total != 5 {
+//		t.Errorf("Minus was incorrect, got: %d, want: %d.", total, 5)
+//	}
+//}
